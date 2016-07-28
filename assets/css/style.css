@@ -1,0 +1,187 @@
+/*
+
+font-family: 'Mouse Memoirs', sans-serif;
+
+font-family: 'Lobster Two', cursive;
+
+font-family: 'Slackey', cursive;
+
+
+*/
+
+body{
+	background-color: black;
+}
+
+.container {
+	border: 4px solid white;
+	border-radius: 25px;
+	padding: 0px 5%;
+	background-image: url("../images/bkrnd.png");}
+
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 6em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #d3d3d3;
+	line-height: 1;
+}
+
+
+.winsLosses {
+	margin-top: 20px;
+
+}
+
+.score {
+	border: 4px solid black;
+	border-radius: 15px;
+	padding: 10px 0px;
+	background-color: #d3d3d3;
+	overflow: hidden;
+
+}
+
+
+
+.scoreWin {
+	font-family: 'Orbitron', sans-serif;
+	margin: -15px auto;
+	text-align: center;
+	font-size: 3em;
+	color: black;
+}
+
+
+.scoreBorder {
+	border-right: 5px solid black;
+}
+
+
+.scoreLoss {
+	font-family: 'Orbitron', sans-serif;
+	margin: -15px auto 0px auto;
+	text-align: center;
+	font-size: 3em;
+	color: black;
+}
+
+.win {
+	font-family: 'Orbitron', sans-serif;
+	margin: -15px auto -15px auto;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1.25;
+	color: black;
+}
+
+.loss {
+	font-family: 'Orbitron', sans-serif;
+	margin: -15px auto -15px auto;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1.25;
+	color: black;
+}
+
+.comp {
+	margin-top: 20px;
+	border: 3px solid black;
+	border-radius: 15px;
+	padding: 0px;
+	background-color: #d3d3d3;
+	overflow: hidden;
+
+}
+
+.compScore {
+	font-family: 'Orbitron', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 2px solid black;
+	color: black;
+
+}
+
+.compNum {
+	font-family: 'Orbitron', sans-serif;
+	margin: -35px auto -15px auto;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1.25;
+	background-color: #fff;
+	color: black;
+
+}
+
+.crystalBox {
+	margin-top: 20px;
+	border: 4px solid black;
+	border-radius: 15px;
+	padding: 10px 40px;
+	background-color: #d3d3d3;
+}
+
+.crystalimg {
+	float: left;
+
+}
+
+.your {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px solid black;
+	border-radius: 15px;
+	padding: 0px;
+	background-color: #d3d3d3;
+	overflow: hidden;
+
+}
+
+.yourScore {
+	font-family: 'Orbitron', sans-serif;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 2px solid black;
+	color: black;
+
+}
+
+.yourNum {
+	font-family: 'Orbitron', sans-serif;
+	margin: -35px auto -15px auto;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1.25;
+	background-color: white;
+	color: black;
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+		h1 {
+			font-size: 5.5em;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    	h1 {
+			font-size: 5em;
+		}
+
+
+    /* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    	h1 {
+			font-size: 4.5em;
+		}
+
+    }
